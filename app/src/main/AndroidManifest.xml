@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homerental">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/caricon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/caricon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RentalCarSystem">
+        <activity android:name="com.example.homerental.Admin.View_All_Products"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar"
+            ></activity>
+        <activity android:name="com.example.homerental.Admin.View_All_FeedBack"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar"
+            />
+        <activity android:name="com.example.homerental.Admin.View_All_RequestOrder"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar"
+            />
+        <activity android:name="com.example.homerental.Admin.View_AllPlacedOrder"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar"
+            />
+        <activity android:name="com.example.homerental.Admin.View_Vendors"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar"
+            />
+        <activity android:name="com.example.homerental.Admin.View_Users"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar"
+            />
+        <activity android:name="com.example.homerental.Admin.AdminDashBoard"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar"
+            />
+        <activity android:name="com.example.homerental.Admin.AdminLogin"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar"
+            />
+        <activity android:name="com.example.homerental.Vendor.VendorUpdateProductDetails" />
+        <activity
+            android:name="com.example.homerental.Vendor.VendorAddProduct"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar" />
+        <activity
+            android:name="com.example.homerental.Vendor.VendorViewProducts"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar" />
+        <activity
+            android:name="com.example.homerental.Vendor.VendorRequestOrder"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar" />
+        <activity
+            android:name="com.example.homerental.Vendor.VendorPlacedOrders"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar" />
+        <activity
+            android:name="com.example.homerental.Vendor.VendorFeedBack"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar" />
+        <activity android:name="com.example.homerental.Vendor.VendorRegister" />
+        <activity
+            android:name="com.example.homerental.Vendor.VendorDashBoard"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar" />
+        <activity android:name="com.example.homerental.Vendor.VendorLogin" />
+        <activity
+            android:name="com.example.homerental.User.SearchProducts"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar" />
+        <activity
+            android:name="com.example.homerental.User.ProductsDetails"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar" />
+        <activity
+            android:name="com.example.homerental.User.HomePage"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar" />
+        <activity
+            android:name="com.example.homerental.User.UserRegister"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar" />
+        <activity
+            android:name="com.example.homerental.User.UserLogin"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar" />
+        <activity
+            android:name="com.example.homerental.MainActivity"
+            android:theme="@style/Theme.RentalCarSystem.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
